@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .hero{
+            min-height: 100vh;
+        }
+        .hero-card{
+            width: 100%;
+            height: 100vh;
+            background: url(https://t4.ftcdn.net/jpg/10/35/08/91/240_F_1035089199_ugZle2MIdtoRo5DejT1at1sJaICImxcw.jpg) no-repeat center;
+            background-size:contain;
+            background-color: #222;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .heading{
+           
+            font-size: 4rem;
+        }
+        .italic{
+            font-family: "Dancing Script", cursive;
+            font-weight: 700;
+        }
+        .hero-card h2{
+            font-size: 1rem;
+            letter-spacing: 40px;
+            font-weight: 300;
+        }
+        .hero-card div{
+            line-height: 0.9;
+            text-align: center;
+        }
+        .hero-card div *{
+            color: rgb(220, 216, 212);
+        }
+
+        .image{
+            min-height: 100vh;
+            background: url(https://t3.ftcdn.net/jpg/06/78/12/92/240_F_678129294_2aMOmX3TklUjqU8ju89SBigEJKEY9HUV.jpg) no-repeat center;
+            background-size: cover;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .image *{
+            color: rgb(112, 60, 0);
+        }
+        /* .tree{
+            position: fixed;
+            left: 0;
+            bottom: 0;
+        } */
+         .tree{
+            min-height: 40vh;
+            background: url(https://media1.tenor.com/m/WmvV46-afIsAAAAC/flower-blooming.gif) repeat;
+            width: 100%;
+         }
+         .border{
+            height: 20px;
+            width: 100%;
+            background: url(https://t3.ftcdn.net/jpg/08/75/57/76/360_F_875577663_rLIlOtzpeknqAG8YoM8WmZpi2cta3cqO.jpg) no-repeat center;
+            background-size: cover;
+         }
+         .scan{
+            display: flex;
+            background-color: #e0dfde;
+            padding: 30px;
+            align-items: center;
+         }
+         .qr-left{
+            flex: 1;
+         }
+         .qr-right{
+            flex: 1;
+         }
+         .qr-left img{
+            width: 100%;
+         }
+          button{
+            border: none;
+            padding: 10px 30px;
+            margin-top: 20px;
+            background: url(https://t3.ftcdn.net/jpg/08/75/57/76/360_F_875577663_rLIlOtzpeknqAG8YoM8WmZpi2cta3cqO.jpg) no-repeat center;
+            background-size: cover;
+            font-weight: 800;
+            border-radius: 100px;
+            color: #3a2108;
+            transition: 1s;
+            cursor: pointer;
+         }
+          button:hover{
+            transform: scale(1.1);
+
+         }
+         .address{
+            min-height: 50vh;
+            background: url(https://img.freepik.com/free-vector/black-golden-flowers-background_1017-32462.jpg) no-repeat center;
+            background-size: cover;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+         }
+         .address *{
+            color: #f1a247;
+         }
+         .address h1{
+            font-size: 3rem;
+         }
+         .thanks{
+            display: flex;
+            padding: 30px;
+            align-items: center;
+          background-color: #f7ca9c;
+         }
+         .thanks *{
+            color: #5c3005 !important;
+         }
+         .left{
+            flex: 1;
+         }
+         .right{
+            flex: 1;
+         }
+         .right img{
+            width: 100%;
+         }
+    </style>
+</head>
+<body>
+    <div class="border"></div>
+    <audio src="./bgm.mp3" autoplay loop></audio>
+    <div class="hero">
+        <div class="hero-card">
+           <div>
+            <h2 class="subheading">Save The Date</h2><br> <br>
+            <h1 class="heading italic;font-size: 10rem;" >60th</h1><BR></BR>
+            <h3 class="italic" style="margin-left: 250px; font-size: 3rem; margin-bottom: 0px;">BIRTHDAY</h3>
+            <p style="margin-top: 50px; line-height: 1;font-size: 1.4rem;margin-left: 50px;">Join us as we celebrate our love at our 60th birthday <br>  The fun begins right now! Come join us in celebrating our special day.</p>
+            <h1 style="margin-top: 20px;">24 | DEC | 2024</h1>
+           </div>
+        </div>
+    </div>
+    <div class="border"></div>
+
+    <div class="image">
+        <h1 style="font-size: 3rem; font-weight: 500; text-align: center;">Blog <br>presence at the </h1>
+        <h1 class="heading italic">Happy</h1>
+        <h1 style="font-size: 1rem; font-weight: 500; text-align: center;">BIRTHDAY</h1>
+        <h1 class="heading italic">Don't Forgot Gift</h1>
+    </div>
+    <div class="border"></div>
+</body>
+</html>
